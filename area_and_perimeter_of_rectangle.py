@@ -9,7 +9,7 @@ def main():
     # this function shows formatting output
 
     # input
-    value = int(input("Enter a value: "))
+    value = int(input("Enter a value ($): "))
 
     # process
     # nill
