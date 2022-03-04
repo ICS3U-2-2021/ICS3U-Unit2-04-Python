@@ -2,25 +2,21 @@
 
 # Created by: Mr. Coxall
 # Created on: Sep 2020
-# This program calculates the area and perimeter of a rectangle
-#    with radius inputted from the user
+# This program shows formatting output
 
 
 def main():
-    # this function calculates area and perimeter
+    # this function shows formatting output
 
     # input
-    length = int(input("Enter length of the rectangle (mm): "))
-    width = int(input("Enter width of the rectangle (mm): "))
+    value = int(input("Enter a value: "))
 
     # process
-    area = length * width
-    perimeter = 2 * (length + width)
+    # nill
 
     # output
     print("")
-    print("Area is {0} mm².".format(area))
-    print("Perimeter is {0} mm.".format(perimeter))
+    print("The cost is: ${:,.2f}".format(value))
 
     print("\nDone.")
 
